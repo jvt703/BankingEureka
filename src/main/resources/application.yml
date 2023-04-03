@@ -1,0 +1,7 @@
+server:
+  port: 8761
+eureka:
+  renewalPercentThreshold: 1.15
+  client:
+    register-with-eureka: false
+    fetch-registry: false
